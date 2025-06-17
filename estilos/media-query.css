@@ -29,7 +29,7 @@
     }
     
     section#login{
-        width: 950px;
+        width: 80vw;
     }
 
     section#login>div#imagem{
@@ -49,11 +49,28 @@
 
     div.campo>input{
     font-family: 1em;
-    width: calc(100% - 60px);
+    width: calc(100% - 45.7px);
     height: 100%;
-    transform: translateY(-13px);
+    transform: translateY(-13.5px);
     border: none;
     border-radius: 7px;
     padding: 4px;
-}
+    }
+
+    form>div.campo{
+    background-color: #4e3d42;
+    border: 2px solid #4e3d42;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    margin: 7px 0px;
+    }
+
+    div.campo>i{
+        color: white;
+    font-size: 1.6em;
+    width: 40px;
+    padding: 5px;
+    }
 }
